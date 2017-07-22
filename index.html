@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Bio Page</title>
+<link rel="stylesheet" type="text/css" href="reset.css">
+<!-- found this css animatin code on techfunda.com, set it to animate my "About Me" header by giving the h1 tag an "ani" class name. Had to edit the "from" parameters to keep it from causing a horizontal scrollbar to pop up at the beginning of the animation-->
+<style type="text/css">
+	h1.ani {
+		-webkit-animation-duration: 1s;
+		-webkit-animation-name: slidein;
+	}
+
+	@-webkit-keyframes slidein {
+		from{
+			margin-left: 80%;
+	}
+
+</style>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<nav class="navbar navbar-default">
+<!--navbar starts here-->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Mike Bernett</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active">
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<body>
+<div class="container">
+<div class="row">
+<!--main row starts here-->
+	<div class="col-md-8">
+	<!-- About Me column start shere-->
+		<div class="row">
+		<!--header subrow-->
+			<h1 class="ani">About Me</h1>
+			<hr>
+		</div>
+		<div class="col-md-3">
+		<!--start portrait pic column-->
+			<a href="https://placeholder.com"><img src="http://via.placeholder.com/350x350"></a>
+		</div>
+		<div class="col-md-9">
+			Mike Bernett is a former technical support manager for Collette Management, Inc., an automotive marketing company based in Ashburn, VA. From 2005 to 2017, Mike assisted over 100 DC and Baltimore area Auto Dealers with various inventory-related software platforms. In addition to dealership support, Mike also assisted a team of 25 co-workers with mobile device software needs. 
+		</div>
+	</div>
+	<!-- About Me column ends here-->
+	<div class="col-md-4">
+	<!--sidebar column here-->
+		<div class="panel panel-default">
+  			<div class="panel-heading">
+   				<h3 class="panel-title">Panel title</h3>
+			</div>
+  			<div class="panel-body">
+   				Panel content
+ 			</div>
+		</div>
+	</div>
+</div>
+<!--main row ends here-->
+</body>
+</html>
